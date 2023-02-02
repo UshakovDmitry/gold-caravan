@@ -1,14 +1,37 @@
-.main {
+body {
+    margin: 0;
     padding: 0;
-    margin: 0 auto;
-    max-width: 1170px;
-    height: 1400px;
-    border: 1px solid red;
+}
+:root {
+  font-family: Inter, Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  background-color: #edf6fa;
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  max-width: 1170px;
+  height: 3495px;
+  border: 2px solid blue;
+  padding: 0;
+  margin: 0 auto;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+.page {
+  max-width: 1920px;
+  min-height: 100vh;
+  margin: 0;
+  background-color: rgb(101, 94, 94);
+  padding: 0;
 }
 
 .main__img {
-    margin: 0 auto;
-    width: 1000px;
-    height: 500px;
-    border-radius: 20px;
+  margin: 0 auto;
+  width: 1170px;
+  height: 600px;
+  border-radius: 20px;
 }

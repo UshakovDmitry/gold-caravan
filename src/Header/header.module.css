@@ -1,20 +1,21 @@
 .header {
     max-width: 1920px;
-    max-height: 95px;
+    height: 125px;
     box-sizing: border-box;
     border: 2px solid fuchsia;
+    margin-bottom: 100px;
     /* background-color: #FFFFFF; */
     /* border: 5px solid rgb(206, 149, 44); */
   }
 
   .header__wrapper {
-    padding-top: 20px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
     max-width: 1170px;
-    max-height: 93px;
+    height: 125px;
+    border: 1px solid green; 
   }
 
   .header__button {
@@ -37,6 +38,19 @@
     gap: 30px;
   }
 
+  .link {
+    padding: 0;
+    display: inline-block;
+    /* font-family: "Inter", "Arial ", sans-serif; */
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 18px;
+    list-style: none;
+    text-decoration-line: none;
+    color: black;
+    transition: 0.3s ease-in;
+  }
   .h1 {
     color: #000;
     cursor: pointer;
