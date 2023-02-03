@@ -10,10 +10,20 @@ function App() {
   return (
     <>
       <div className="page">
+
       <Header />
-      <div className="lending">
-      <img className="main__img" src={mainImg2} alt="Логотип" />
+
+      <div className="lending" style={{
+        backgroundImage: `URL(${mainImg2})` }}>
+
+      <div className="lending__text">
+        <h1 className="lending_h1">ГРУЗОВЫЕ ПЕРЕВОЗКИ</h1>
+        <p className="lending_p">Перевозка крупногабаритных грузов по России и Казахстану. Полное экспедирование, страхование, упаковка и хранение грузов</p>
       </div>
+      </div>
+
+
+
       <div className="main">
       
 

@@ -1,9 +1,15 @@
+@font-face {
+  font-family: 'Roboto-regular';
+  src: url('../fonts/Roboto/Roboto-Regular.ttf');
+}
+
+
 .header {
     max-width: 1920px;
     height: 125px;
     box-sizing: border-box;
 
-    margin-bottom: 100px;
+   
     /* background-color: #FFFFFF; */
     /* border: 5px solid rgb(206, 149, 44); */
   }
@@ -26,7 +32,7 @@
     min-width: 245px;
     height: 55px;
     border-radius: 10px;
-    background: #37f69b;
+    background: #C8A35F;
   }
 
   .header__links {
@@ -39,10 +45,10 @@
   }
 
   .link {
-    font-family: Roboto;
+    font-family: 'Roboto-regular';
     padding: 0;
     display: inline-block;
-    /* font-family: "Inter", "Arial ", sans-serif; */
+    line-height:16.41px;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -53,7 +59,8 @@
     transition: 0.3s ease-in;
   }
   .h1 {
-    color: #000;
+    font-family: 'Roboto-regular';
+    color: white;
     cursor: pointer;
     font-size: 42px;
     text-decoration: none;

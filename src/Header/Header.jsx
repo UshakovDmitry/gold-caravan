@@ -9,14 +9,14 @@ const Header = () => {
     
     <div className={css.header__wrapper}>
 
-    <h1  className={css.h1}>Logo</h1>
+    <h1 className={css.h1}>GOLD CARAVAN </h1>
 
      <ul className={css.header__links}>
-        <li className={css.link}>Заявки</li>
-        <li className={css.link}>Отзывы</li>
-        <li className={css.link}>Цены</li>
-        <li className={css.link}>Водители</li>
-        <li className={css.link}>О нас</li>
+        
+        <li className={css.link}>ОТЗЫВЫ</li>
+        <li className={css.link}>ЦЕНЫ</li>
+        <li className={css.link}>ВОДИТЕЛИ</li>
+        <li className={css.link}>О НАС</li>
      </ul>
     
      <button className={css.header__button} >Оставить заявку</button>
