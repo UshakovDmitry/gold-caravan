@@ -6,7 +6,7 @@ body {
   font-family: Inter, Arial, sans-serif;
   font-style: normal;
   font-weight: 400;
-  background-color: #edf6fa;
+  background-color: #2F343A;
   margin: 0;
   padding: 0;
 }
@@ -25,13 +25,18 @@ body {
   max-width: 1920px;
   min-height: 100vh;
   margin: 0;
-  background-color: rgb(101, 94, 94);
+  background-color: #2F343A;
   padding: 0;
 }
 
 .main__img {
   margin: 0 auto;
-  width: 1170px;
-  height: 600px;
-  border-radius: 20px;
+  max-width: 1920px;
+  height: 620px;
+}
+
+.lending {
+  margin: 0 auto;
+  max-width: 1920px;
+  height: 620px;
 }

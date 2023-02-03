@@ -2,7 +2,7 @@
     max-width: 1920px;
     height: 125px;
     box-sizing: border-box;
-    border: 2px solid fuchsia;
+
     margin-bottom: 100px;
     /* background-color: #FFFFFF; */
     /* border: 5px solid rgb(206, 149, 44); */
@@ -15,7 +15,7 @@
     align-items: center;
     max-width: 1170px;
     height: 125px;
-    border: 1px solid green; 
+    
   }
 
   .header__button {
@@ -39,6 +39,7 @@
   }
 
   .link {
+    font-family: Roboto;
     padding: 0;
     display: inline-block;
     /* font-family: "Inter", "Arial ", sans-serif; */
@@ -48,7 +49,7 @@
     line-height: 18px;
     list-style: none;
     text-decoration-line: none;
-    color: black;
+    color: white;
     transition: 0.3s ease-in;
   }
   .h1 {
