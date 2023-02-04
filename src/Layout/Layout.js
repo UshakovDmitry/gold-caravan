@@ -1,4 +1,4 @@
-import css from "./Footer.module.css";
+// import css from "./Footer.module.css";
 import { Outlet } from "react-router-dom";
 
 const Layout = () => {

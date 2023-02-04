@@ -1,5 +1,6 @@
-
-import css from './About.module.css'
+import Footer from '../../components/Footer/Footer';
+import Header from '../../components/Header/Header';
+// import css from './About.module.css'
 
 const About = () => {
   return (
