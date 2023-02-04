@@ -6,6 +6,7 @@
 .main {
     display: flex;
     justify-content: center;
+    margin-top: 50px;
     max-width: 1920px;
     min-height: 725px;
     
@@ -15,7 +16,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    gap: 5px;
+    gap: 10px;
     width: 1170px;
     min-height: 700;
    
@@ -33,6 +34,7 @@
 
 
 .img {
+    border-radius: 7px;
     
 
     /* width: 550px;
@@ -41,4 +43,5 @@
 
 .img_inside {
     max-width: 100%;
+    border-radius: 5px;
 }
