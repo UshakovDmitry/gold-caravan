@@ -1,7 +1,7 @@
 import css from "./Advantages.module.css";
-import dollar from '../images/dollar.svg'
-import truck from '../images/truck-delivery.svg'
-import boxes from '../images/boxes.svg'
+import dollar from '../../images/dollar.svg'
+import truck from '../../images/truck-delivery.svg'
+import boxes from '../../images/boxes.svg'
 
 const Advantages = () => {
   return (

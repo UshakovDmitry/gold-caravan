@@ -30,12 +30,15 @@
     line-height: 30px;
     color:white;
     text-align: left;  
+    background-color:  #393f47;
+    border-radius: 7px;
+    box-sizing: border-box;
 }
 
 
 .img {
     border-radius: 7px;
-    
+    margin: 0;
 
     /* width: 550px;
     height: 340px; */

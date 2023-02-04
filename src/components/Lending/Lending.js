@@ -1,4 +1,4 @@
-import mainImg2 from '../images/truck.svg'
+import mainImg2 from '../../images/truck.svg'
 import css from  './Lending.module.css'
 
 

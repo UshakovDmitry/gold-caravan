@@ -1,4 +1,4 @@
-import map from "../images/office.png";
+import map from "../../images/office.png";
 import css from "./Map.module.css";
 
 const Map = () => {

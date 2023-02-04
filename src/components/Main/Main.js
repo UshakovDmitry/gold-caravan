@@ -1,6 +1,6 @@
 import css from "./Main.module.css";
-import img1 from '../images/main_img_1.jpg';
-import img2 from '../images/main_img2.jpg'
+import img1 from '../../images/main_img_1.jpg';
+import img2 from '../../images/main_img2.jpg '
 
 
 

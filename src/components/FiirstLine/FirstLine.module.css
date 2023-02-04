@@ -1,0 +1,55 @@
+@font-face {
+  font-family: "Roboto-regular";
+  src: url("../fonts/Roboto/Roboto-Regular.ttf");
+}
+
+.line {
+  display: flex;
+  justify-content: center;
+  background-color: #c8a35f;
+  max-width: 1920px;
+  height: 50px;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 1170px;
+}
+.svg {
+  width: 40px;
+  height: 42px;
+}
+
+.logo {
+  font-family: "Roboto-regular";
+  font-size: 8px;
+  max-width: 400px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+.contact {
+  width: 400px;
+  display: flex;
+  justify-content: flex-end;
+  gap: 30px;
+  align-items: center;
+  flex-direction: row;
+}
+
+.number {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.phone_number {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}

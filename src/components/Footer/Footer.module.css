@@ -1,17 +1,11 @@
-@font-face {
-  font-family: 'Roboto-regular';
-  src: url('../fonts/Roboto/Roboto-Regular.ttf');
+.footer {
+    display: flex;
+    justify-content: center;
+    max-width: 1920px;
+    min-height: 160px;
+    background-color: #C8A35F;
 }
-
-.line {
-  display: flex;
-  justify-content: center;
-  background-color: #C8A35F;
-  max-width: 1920px;
-  height: 50px;
-  }
-
-  .wrapper{
+.wrapper{
     display: flex;
     justify-content:space-between;
     width: 1170px;
