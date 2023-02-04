@@ -9,7 +9,7 @@ const Header = () => {
     
     <div className={css.header__wrapper}>
 
-    <h1 className={css.h1}>GOLD CARAVAN </h1>
+    <h1 className={css.h1}>Gold Caravan </h1>
 
      <ul className={css.header__links}>
         

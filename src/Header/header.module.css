@@ -8,10 +8,6 @@
     max-width: 1920px;
     height: 125px;
     box-sizing: border-box;
-
-   
-    /* background-color: #FFFFFF; */
-    /* border: 5px solid rgb(206, 149, 44); */
   }
 
   .header__wrapper {
@@ -60,7 +56,7 @@
   }
   .h1 {
     font-family: 'Roboto-regular';
-    color: white;
+    color:  #C8A35F;
     cursor: pointer;
     font-size: 42px;
     text-decoration: none;
