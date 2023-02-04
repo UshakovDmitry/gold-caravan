@@ -1,0 +1,15 @@
+
+
+.wrapper{
+    display: flex;
+    justify-content: center;
+
+}
+
+
+
+.img {
+    width: 1170px;
+    height: 400px;
+    opacity: 0.3;
+}

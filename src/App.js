@@ -8,6 +8,7 @@ import Header from "./Header/Header.jsx";
 import Lending from "./Lending/Lending";
 import FirstLine from "./FiirstLine/FirstLine";
 import Main from "./Main/Main";
+import Map from './Map/Map'
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Header />
         <Lending />
         <Main />
+        <Map />
       </div>
     </>
   );

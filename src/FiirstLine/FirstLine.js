@@ -1,5 +1,9 @@
 import logo from '../images/logo.svg'
 import css from "./FirstLine.module.css";
+import telega from '../images/telegram.svg';
+import insta from '../images/instagram.svg';
+import whatsApp from '../images/whatsapp.svg';
+
 
 const FirstLine = () => {
   return (
@@ -26,7 +30,29 @@ const FirstLine = () => {
 
 
 
-<div className={css.contact}>social message</div>
+<div className={css.contact}>
+
+
+<div>
+<a href="http://wa.me/77007878095" className={css.phone_number}>
+<img className={css.svg} src={whatsApp} />
+</a>
+</div>
+
+<div>
+<a href="tel:+77071608200" className={css.phone_number}>
+<img className={css.svg} src={telega} />
+</a>
+</div>
+
+<div>
+<a href="https://www.instagram.com/victoria_eroffff/" className={css.phone_number}>
+<img className={css.svg} src={insta} />
+</a>
+</div>
+
+</div>
+
 
 </div>
 

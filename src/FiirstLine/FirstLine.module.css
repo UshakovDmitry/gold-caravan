@@ -36,7 +36,11 @@
 
   .contact {
     width: 400px;
-    border: 1px solid rebeccapurple;
+    display: flex;
+    justify-content: end;
+    gap: 30px;
+    align-items: center;
+    flex-direction: row;
   }
 
 
