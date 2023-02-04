@@ -18,7 +18,7 @@
 
 .wrapper {
   width: 1170px;
-  min-height: 700px;
+  min-height: 800px;
   
 }
 
@@ -58,6 +58,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 350px;
+    height: 350px;
  
     
 }
