@@ -8,7 +8,8 @@ import Header from "./Header/Header.jsx";
 import Lending from "./Lending/Lending";
 import FirstLine from "./FiirstLine/FirstLine";
 import Main from "./Main/Main";
-import Map from './Map/Map'
+import Map from './Map/Map';
+import Footer from "./Footer/Footer";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Lending />
         <Main />
         <Map />
+        <Footer />
       </div>
     </>
   );
