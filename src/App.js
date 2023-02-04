@@ -7,6 +7,7 @@ import "./App.css";
 import Header from "./Header/Header.jsx";
 import Lending from "./Lending/Lending";
 import FirstLine from "./FiirstLine/FirstLine";
+import Advantages from './Advantages/Advantages'
 import Main from "./Main/Main";
 import Map from './Map/Map';
 import Footer from "./Footer/Footer";
@@ -18,6 +19,7 @@ function App() {
         <FirstLine />
         <Header />
         <Lending />
+        <Advantages />
         <Main />
         <Map />
         <Footer />

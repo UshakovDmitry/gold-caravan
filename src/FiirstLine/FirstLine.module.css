@@ -37,7 +37,7 @@
   .contact {
     width: 400px;
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
     gap: 30px;
     align-items: center;
     flex-direction: row;
