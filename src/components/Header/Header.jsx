@@ -1,4 +1,4 @@
-
+import { Link } from 'react-router-dom';
 import css from './header.module.css'
 
 
@@ -13,10 +13,9 @@ const Header = () => {
 
      <ul className={css.header__links}>
         
-        <li className={css.link}>ОТЗЫВЫ</li>
-        <li className={css.link}>ЦЕНЫ</li>
-        <li className={css.link}>ВОДИТЕЛИ</li>
-        <li className={css.link}>О НАС</li>
+        <Link to="reviews" className={css.link}>ОТЗЫВЫ</Link>
+        <Link to="drivers" className={css.link}>ВОДИТЕЛИ</Link>
+        <Link to="about" className={css.link}>О НАС</Link>
      </ul>
     
      <button className={css.header__button} >Оставить заявку</button>
