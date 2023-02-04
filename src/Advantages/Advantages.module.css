@@ -31,9 +31,12 @@
 
 .p {
   font-family: "Roboto-regular";
-  font-size: 16px;
   text-align: center;
   color:white;
+  font-size: 18px;
+  font-weight: 400;
+  /* padding: 10px; */
+  line-height: 30px;
 }
 
 .h3 {
