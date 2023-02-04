@@ -1,4 +1,6 @@
 import css from "./Main.module.css";
+import img1 from '../images/main_img_1.jpg';
+import img2 from '../images/main_img2.jpg'
 
 
 
@@ -27,10 +29,23 @@ const Main = () => {
 Большой штат водителей с многолетним стажем и опытом негабаритных грузоперевозок.</p>
         </div>
 
-        <div className={css.img} ></div>
+
+
+
+        
+
+
         <div className={css.img} >
-            
+            <img className={css.img_inside} src={img1} />
             </div>
+
+            <div className={css.img} >
+            <img className={css.img_inside} src={img2} />
+            </div>
+
+
+
+
         <div className={css.text} >
         <p>В случае необходимости или целесообразности железнодорожных грузоперевозок, наши менеджеры согласуют маршрут со всеми необходимыми инстанциями и заранее сообщат Вам сроки доставки состава по назначению.
 

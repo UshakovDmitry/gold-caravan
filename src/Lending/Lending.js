@@ -7,7 +7,7 @@ const Lending = () => {
   return (
   
 <>
-    <div className={css.lending} style={{backgroundImage: `URL(${mainImg2})` }}>
+    <div className={css.lending} style={{backgroundImage: `url(${mainImg2})`, backgroundRepeat: "no-repeat",backgroundSize:"cover" }}>
 
     <div className={css.lending__text}>
       <h1 className={css.lending_h1}>ГРУЗОВЫЕ ПЕРЕВОЗКИ</h1>
