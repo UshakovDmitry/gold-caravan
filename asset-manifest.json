@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/Golden-caravan/static/css/main.ed9f0f43.css",
-    "main.js": "/Golden-caravan/static/js/main.717cc06c.js",
-    "static/media/truck.svg": "/Golden-caravan/static/media/truck.186a39249efd3366a710f888469a1f48.svg",
-    "static/media/office.png": "/Golden-caravan/static/media/office.e7dfe138e2e2dc924858.png",
-    "static/media/main_img2.jpg": "/Golden-caravan/static/media/main_img2.04e3a38515d0a762e60c.jpg",
-    "static/media/main_img_1.jpg": "/Golden-caravan/static/media/main_img_1.0241c3474eed827e3057.jpg",
-    "static/media/Roboto-Regular.ttf": "/Golden-caravan/static/media/Roboto-Regular.fc2b5060f7accec5cf74.ttf",
-    "static/media/Roboto-Bold.ttf": "/Golden-caravan/static/media/Roboto-Bold.f80816a5455d171f948d.ttf",
-    "static/media/boxes.svg": "/Golden-caravan/static/media/boxes.629ba1742c27ede3f5dfa68f061b4252.svg",
-    "static/media/dollar.svg": "/Golden-caravan/static/media/dollar.069578ce058d8eb7ca88bb6cd6af9e7e.svg",
-    "static/media/truck-delivery.svg": "/Golden-caravan/static/media/truck-delivery.2a80a3765c0ad66eebf61db7ce5f6547.svg",
-    "static/media/logo.svg": "/Golden-caravan/static/media/logo.a50225b8133f515b729a2f6cc927f279.svg",
-    "static/media/whatsapp.svg": "/Golden-caravan/static/media/whatsapp.f2883296e5f8c40374f487bfc522416c.svg",
-    "static/media/instagram.svg": "/Golden-caravan/static/media/instagram.b2043c0295ef318920bcd05b43bf4921.svg",
-    "static/media/telegram.svg": "/Golden-caravan/static/media/telegram.3295c7bd9bf1124c19a978b2c44e09c8.svg",
-    "index.html": "/Golden-caravan/index.html",
-    "main.ed9f0f43.css.map": "/Golden-caravan/static/css/main.ed9f0f43.css.map",
-    "main.717cc06c.js.map": "/Golden-caravan/static/js/main.717cc06c.js.map"
+    "main.css": "/gold-caravan/static/css/main.35964cae.css",
+    "main.js": "/gold-caravan/static/js/main.801e9291.js",
+    "static/media/truck.svg": "/gold-caravan/static/media/truck.186a39249efd3366a710f888469a1f48.svg",
+    "static/media/office.png": "/gold-caravan/static/media/office.e7dfe138e2e2dc924858.png",
+    "static/media/main_img2.jpg": "/gold-caravan/static/media/main_img2.04e3a38515d0a762e60c.jpg",
+    "static/media/main_img_1.jpg": "/gold-caravan/static/media/main_img_1.0241c3474eed827e3057.jpg",
+    "static/media/Roboto-Regular.ttf": "/gold-caravan/static/media/Roboto-Regular.fc2b5060f7accec5cf74.ttf",
+    "static/media/Roboto-Bold.ttf": "/gold-caravan/static/media/Roboto-Bold.f80816a5455d171f948d.ttf",
+    "static/media/boxes.svg": "/gold-caravan/static/media/boxes.629ba1742c27ede3f5dfa68f061b4252.svg",
+    "static/media/dollar.svg": "/gold-caravan/static/media/dollar.069578ce058d8eb7ca88bb6cd6af9e7e.svg",
+    "static/media/truck-delivery.svg": "/gold-caravan/static/media/truck-delivery.2a80a3765c0ad66eebf61db7ce5f6547.svg",
+    "static/media/logo.svg": "/gold-caravan/static/media/logo.a50225b8133f515b729a2f6cc927f279.svg",
+    "static/media/whatsapp.svg": "/gold-caravan/static/media/whatsapp.f2883296e5f8c40374f487bfc522416c.svg",
+    "static/media/instagram.svg": "/gold-caravan/static/media/instagram.b2043c0295ef318920bcd05b43bf4921.svg",
+    "static/media/telegram.svg": "/gold-caravan/static/media/telegram.3295c7bd9bf1124c19a978b2c44e09c8.svg",
+    "index.html": "/gold-caravan/index.html",
+    "main.35964cae.css.map": "/gold-caravan/static/css/main.35964cae.css.map",
+    "main.801e9291.js.map": "/gold-caravan/static/js/main.801e9291.js.map"
   },
   "entrypoints": [
-    "static/css/main.ed9f0f43.css",
-    "static/js/main.717cc06c.js"
+    "static/css/main.35964cae.css",
+    "static/js/main.801e9291.js"
   ]
 }
