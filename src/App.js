@@ -18,11 +18,11 @@ function App() {
     <>
       <div className="page">
         <Routes>
-          <Route path="/home" element={<Layout />}>
+          <Route path="/" element={<Layout />}>
             <Route index element={<Home />} />
-            <Route path="reviews" element={<Reviews />} />
-            <Route path="drivers" element={<Drivers />} />
-            <Route path="about" element={<About />} />
+            <Route path="/reviews" element={<Reviews />} />
+            <Route path="/drivers" element={<Drivers />} />
+            <Route path="/about" element={<About />} />
           </Route>
         </Routes>
 

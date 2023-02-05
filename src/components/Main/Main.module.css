@@ -21,6 +21,15 @@
     min-height: 700;
    
 }
+@media (max-width:1180px) {
+    .main__wrapper {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat (4, 1fr);;
+
+    }
+    
+}
 
 .text {
     font-family: 'Roboto-regular';

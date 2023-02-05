@@ -1,3 +1,20 @@
 .main {
+    border-top: 3px solid #C8A35F;
     display: flex;
+    max-width: 1920px;
+    /* border: 2px solid red; */
+    height: 900px;
+    justify-content: center;
+    /* z-index: 2; */
+    opacity: 0.3;
+}
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr) ;
+    grid-template-rows: repeat(2, 1fr);
+    gap: 15px;
+    width: 1170px;
+    border: 1px solid red;
+    height: 100%;
+
 }

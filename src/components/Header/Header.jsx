@@ -13,9 +13,9 @@ const Header = () => {
 
      <ul className={css.header__links}>
         
-        <Link to="reviews" className={css.link}>ОТЗЫВЫ</Link>
-        <Link to="drivers" className={css.link}>ВОДИТЕЛИ</Link>
-        <Link to="about" className={css.link}>О НАС</Link>
+        <Link to="/reviews" className={css.link}>ОТЗЫВЫ</Link>
+        <Link to="/drivers" className={css.link}>ВОДИТЕЛИ</Link>
+        <Link to="/about" className={css.link}>О НАС</Link>
      </ul>
     
      <button className={css.header__button} >Оставить заявку</button>

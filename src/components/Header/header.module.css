@@ -6,7 +6,7 @@
 
 .header {
     max-width: 1920px;
-    height: 125px;
+    height: 100px;
     box-sizing: border-box;
   }
 
@@ -16,7 +16,7 @@
     justify-content: space-between;
     align-items: center;
     max-width: 1170px;
-    height: 125px;
+    height: 100px;
     
   }
 
