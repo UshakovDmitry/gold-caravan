@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/gold-caravan/static/css/main.35964cae.css",
-    "main.js": "/gold-caravan/static/js/main.801e9291.js",
+    "main.js": "/gold-caravan/static/js/main.6f8dffb7.js",
     "static/media/truck.svg": "/gold-caravan/static/media/truck.186a39249efd3366a710f888469a1f48.svg",
     "static/media/office.png": "/gold-caravan/static/media/office.e7dfe138e2e2dc924858.png",
     "static/media/main_img2.jpg": "/gold-caravan/static/media/main_img2.04e3a38515d0a762e60c.jpg",
@@ -17,10 +17,10 @@
     "static/media/telegram.svg": "/gold-caravan/static/media/telegram.3295c7bd9bf1124c19a978b2c44e09c8.svg",
     "index.html": "/gold-caravan/index.html",
     "main.35964cae.css.map": "/gold-caravan/static/css/main.35964cae.css.map",
-    "main.801e9291.js.map": "/gold-caravan/static/js/main.801e9291.js.map"
+    "main.6f8dffb7.js.map": "/gold-caravan/static/js/main.6f8dffb7.js.map"
   },
   "entrypoints": [
     "static/css/main.35964cae.css",
-    "static/js/main.801e9291.js"
+    "static/js/main.6f8dffb7.js"
   ]
 }
