@@ -1,7 +1,7 @@
 import css from "./Footer.module.css";
-import telega from "../../images/telegram.svg";
-import insta from "../../images/instagram.svg";
-import whatsApp from "../../images/whatsapp.svg";
+// import telega from "../../images/telegram.svg";
+// import insta from "../../images/instagram.svg";
+// import whatsApp from "../../images/whatsapp.svg";
 import logo from "../../images/logo.svg";
 
 
@@ -20,7 +20,7 @@ const Footer = () => {
             </a>
           </div>
 
-          <div className={css.contact}>
+          {/* <div className={css.contact}>
             <div>
               <a href="http://wa.me/77007878095" className={css.phone_number}>
                 <img className={css.svg} src={whatsApp} />
@@ -41,7 +41,7 @@ const Footer = () => {
                 <img className={css.svg} src={insta} />
               </a>
             </div>
-          </div>
+          </div> */}
         </div>
     </div>
   );

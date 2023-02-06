@@ -9,9 +9,9 @@ const Lending = () => {
 <>
     <div className={css.lending} style={{backgroundImage: `url(${mainImg2})`, backgroundRepeat: "no-repeat",backgroundSize:"cover" }}>
 
-    <div className={css.lending__text}>
-      <h1 className={css.lending_h1}>ГРУЗОВЫЕ ПЕРЕВОЗКИ</h1>
-      <p className={css.lending_p}>Перевозка крупногабаритных грузов по России и Казахстану. Полное экспедирование, страхование, упаковка и хранение грузов</p>
+    <div className={css.container}>
+      <h1 className={css.h1}>ГРУЗОВЫЕ ПЕРЕВОЗКИ</h1>
+      <p className={css.p}>Перевозка крупногабаритных грузов по России и Казахстану. Полное экспедирование, страхование, упаковка и хранение грузов</p>
     </div>
     
     </div>
