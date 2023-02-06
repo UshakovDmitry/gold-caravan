@@ -90,7 +90,7 @@
     height: 100vh;
     background-color: #2F343A;
     z-index: 10;
-    transition: left 1s; 
+    transition: left 1.5s; 
   }
 
   .active {
@@ -99,5 +99,34 @@
 
   .link {
     font-size: 28px;
+  }
+}
+
+
+
+@media (max-width: 400px) {
+
+  .h1 {
+    font-family: "Roboto-regular";
+    color: #c8a35f;
+    cursor: pointer;
+    font-size: 22px;
+    text-decoration: none;
+    line-height: 33px;
+    padding-left: 20px;
+  }
+
+  .header {
+    max-width: 1920px;
+    height: 70px;
+    box-sizing: border-box;
+  }
+  .header__wrapper {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1170px;
+    height: 70px;
   }
 }
