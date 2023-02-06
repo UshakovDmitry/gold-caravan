@@ -1,25 +1,73 @@
+import React, { Children, cloneElement } from "react";
 import css from "./Carousel.module.css";
+import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 
 const Carousel = ({ chidren }) => {
+  const PAGE_WIDTH = 950;
+
+  const [pages, setPages] = React.useState([]);
+  const [offset, setOffset] = React.useState(0);
+
+  const handlerArrowLeft = () => {
+    setOffset(currentOffset => {
+        const newOffset = currentOffset + PAGE_WIDTH;
+        return Math.min(newOffset, 0)
+    } )
+  };
+
+  const handlerArrowRight = () => {
+
+    setOffset(currentOffset => {
+
+       const newOffset = currentOffset - PAGE_WIDTH;
+       const maxOffset = -(PAGE_WIDTH * (pages.length - 1));
+       console.log(pages)
+    // console.log((pages.length - 1))
+        return Math.max(newOffset , maxOffset)
+        
+       })
+
+  };
+
+  React.useEffect(() => {
+    setPages(
+      Children.map(chidren, (child) => {
+        return cloneElement(child, {
+          style: {
+            height: "100%",
+            minWidth: `${PAGE_WIDTH}px`,
+            maxWidth: `${PAGE_WIDTH}px`,
+          },
+        });
+      })
+    );
+  }, []);
+
   return (
-
-
-
     <div className={css.container}>
-
+      <FaChevronLeft
+        size={50}
+        className={css.arrow}
+        onClick={handlerArrowLeft}
+      />
       <div className={css.window}>
-       
 
-        <div className={css.pages}>
+        <div 
+        className={css.all_pages} 
+        style={{
+            transform:`translateX(${offset}px)`,
+        }}>
+          {pages}
+        </div>
 
-         {chidren}
-         
-         </div>
 
       </div>
-
+      <FaChevronRight
+        size={50}
+        className={css.arrow}
+        onClick={handlerArrowRight}
+      />
     </div>
-
   );
 };
 
