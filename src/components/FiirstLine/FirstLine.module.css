@@ -15,12 +15,28 @@
   display: flex;
   justify-content: space-between;
   width: 1170px;
+  align-items: center;
 }
 .svg {
   width: 40px;
   height: 42px;
 }
 
+.h1 {
+  font-size: 15px;
+}
+
+.button {
+  display: none;
+  cursor: pointer;
+  box-sizing: border-box;
+  border: none;
+  color: black;
+  min-width: 145px;
+  height: 45px;
+  border-radius: 10px;
+  background: green;
+}
 .logo {
   font-family: "Roboto-regular";
   font-size: 8px;
@@ -52,4 +68,23 @@
   text-decoration: none;
   color: black;
   font-size: 20px;
+}
+
+@media (max-width: 400px) {
+  .button {
+    display: block;
+    cursor: pointer;
+    box-sizing: border-box;
+    border: none;
+    color: black;
+    min-width: 105px;
+    height: 25px;
+    border-radius: 10px;
+    background: green;
+    margin-right: 20px;
+  }
+
+  .number {
+    display: none;
+  }
 }

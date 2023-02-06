@@ -1,59 +1,70 @@
 @font-face {
-    font-family: 'Roboto-regular';
-    src: url('../../fonts/Roboto/Roboto-Regular.ttf');
-  }
+  font-family: "Roboto-regular";
+  src: url("../../fonts/Roboto/Roboto-Regular.ttf");
+}
 
 .main {
-    display: flex;
-    justify-content: center;
-    margin-top: 50px;
-    max-width: 1920px;
-    min-height: 725px;
-    
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  max-width: 1920px;
+  min-height: 725px;
 }
 
-.main__wrapper {
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 10px;
+  width: 1170px;
+  min-height: 700;
+}
+@media (max-width: 1180px) {
+  .main__wrapper {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    gap: 10px;
-    width: 1170px;
-    min-height: 700;
-   
-}
-@media (max-width:1180px) {
-    .main__wrapper {
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: repeat (4, 1fr);;
-
-    }
-    
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat (4, 1fr);
+  }
 }
 
 .text {
-    font-family: 'Roboto-regular';
-    font-size: 18px;
-    font-weight: 400;
-    padding: 10px;
-    line-height: 30px;
-    color:white;
-    text-align: left;  
-    background-color:  #393f47;
-    border-radius: 7px;
-    box-sizing: border-box;
+  font-family: "Roboto-regular";
+  font-size: 18px;
+  font-weight: 400;
+  padding: 10px;
+  line-height: 30px;
+  color: white;
+  text-align: left;
+  background-color: #393f47;
+  border-radius: 7px;
+  box-sizing: border-box;
 }
 
-
 .img {
-    border-radius: 7px;
-    margin: 0;
-
-    /* width: 550px;
-    height: 340px; */
+  border-radius: 7px;
+  margin: 0;
 }
 
 .img_inside {
-    max-width: 100%;
-    border-radius: 5px;
+  max-width: 100%;
+  border-radius: 5px;
+}
+
+@media (max-width: 400px) {
+  .wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto auto;
+    gap: 10px;
+    width: 1170px;
+    min-height: 700;
+  }
+  .main {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px 10px 0px; 
+    max-width: 1920px;
+    min-height: 725px;
+  }
+
 }

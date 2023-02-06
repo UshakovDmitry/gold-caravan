@@ -11,7 +11,9 @@ const FirstLine = () => {
         <div className={css.wrapper}>
           <div className={css.logo}>
             <img className={css.svg} src={logo} />
-            <h1>Логистическая компания Gold Caravan</h1>
+
+            <button className={css.button}>Позвонить</button>
+            <h1 className={css.h1}>Логистическая компания</h1>
           </div>
 
           <div className={css.number}>
