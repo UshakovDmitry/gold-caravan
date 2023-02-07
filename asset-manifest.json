@@ -1,28 +1,30 @@
 {
   "files": {
-    "main.css": "/static/css/main.2c4730c5.css",
-    "main.js": "/static/js/main.ff88992b.js",
-    "static/media/bg_drivers.png": "/static/media/bg_drivers.659b9aa6e946cd37c14c.png",
-    "static/media/truck.svg": "/static/media/truck.186a39249efd3366a710f888469a1f48.svg",
-    "static/media/office.png": "/static/media/office.e7dfe138e2e2dc924858.png",
-    "static/media/main_img2.jpg": "/static/media/main_img2.04e3a38515d0a762e60c.jpg",
-    "static/media/main_img_1.jpg": "/static/media/main_img_1.0241c3474eed827e3057.jpg",
-    "static/media/kazah_driver.jpeg": "/static/media/kazah_driver.80df7fcdeaee95cabf78.jpeg",
-    "static/media/vika.jpeg": "/static/media/vika.40b90e99afd8c01813a3.jpeg",
-    "static/media/kazah_driver_3.jpeg": "/static/media/kazah_driver_3.7c9c9c5a4ce1938ec5ed.jpeg",
-    "static/media/kazah_driver_2.jpeg": "/static/media/kazah_driver_2.cffc348de2a1607b2bd4.jpeg",
-    "static/media/Roboto-Regular.ttf": "/static/media/Roboto-Regular.fc2b5060f7accec5cf74.ttf",
-    "static/media/Roboto-Bold.ttf": "/static/media/Roboto-Bold.f80816a5455d171f948d.ttf",
-    "static/media/boxes.svg": "/static/media/boxes.629ba1742c27ede3f5dfa68f061b4252.svg",
-    "static/media/dollar.svg": "/static/media/dollar.069578ce058d8eb7ca88bb6cd6af9e7e.svg",
-    "static/media/truck-delivery.svg": "/static/media/truck-delivery.2a80a3765c0ad66eebf61db7ce5f6547.svg",
-    "static/media/logo.svg": "/static/media/logo.a50225b8133f515b729a2f6cc927f279.svg",
-    "index.html": "/index.html",
-    "main.2c4730c5.css.map": "/static/css/main.2c4730c5.css.map",
-    "main.ff88992b.js.map": "/static/js/main.ff88992b.js.map"
+    "main.css": "/gold-caravan/static/css/main.49f340b6.css",
+    "main.js": "/gold-caravan/static/js/main.aea76e74.js",
+    "static/media/bg_drivers.png": "/gold-caravan/static/media/bg_drivers.659b9aa6e946cd37c14c.png",
+    "static/media/truck.svg": "/gold-caravan/static/media/truck.186a39249efd3366a710f888469a1f48.svg",
+    "static/media/office.png": "/gold-caravan/static/media/office.e7dfe138e2e2dc924858.png",
+    "static/media/main_img2.jpg": "/gold-caravan/static/media/main_img2.04e3a38515d0a762e60c.jpg",
+    "static/media/main_img_1.jpg": "/gold-caravan/static/media/main_img_1.0241c3474eed827e3057.jpg",
+    "static/media/kazah_driver.jpeg": "/gold-caravan/static/media/kazah_driver.80df7fcdeaee95cabf78.jpeg",
+    "static/media/vika.jpeg": "/gold-caravan/static/media/vika.40b90e99afd8c01813a3.jpeg",
+    "static/media/kazah_driver_3.jpeg": "/gold-caravan/static/media/kazah_driver_3.7c9c9c5a4ce1938ec5ed.jpeg",
+    "static/media/kazah_driver_2.jpeg": "/gold-caravan/static/media/kazah_driver_2.cffc348de2a1607b2bd4.jpeg",
+    "static/media/Cera Pro Regular Italic.ttf": "/gold-caravan/static/media/Cera Pro Regular Italic.8892f7774476d2508d9e.ttf",
+    "static/media/Cera Pro Bold.ttf": "/gold-caravan/static/media/Cera Pro Bold.23dd9a3e7a1b992dedb7.ttf",
+    "static/media/Roboto-Regular.ttf": "/gold-caravan/static/media/Roboto-Regular.fc2b5060f7accec5cf74.ttf",
+    "static/media/Roboto-Bold.ttf": "/gold-caravan/static/media/Roboto-Bold.f80816a5455d171f948d.ttf",
+    "static/media/boxes.svg": "/gold-caravan/static/media/boxes.629ba1742c27ede3f5dfa68f061b4252.svg",
+    "static/media/dollar.svg": "/gold-caravan/static/media/dollar.069578ce058d8eb7ca88bb6cd6af9e7e.svg",
+    "static/media/truck-delivery.svg": "/gold-caravan/static/media/truck-delivery.2a80a3765c0ad66eebf61db7ce5f6547.svg",
+    "static/media/logo.svg": "/gold-caravan/static/media/logo.a50225b8133f515b729a2f6cc927f279.svg",
+    "index.html": "/gold-caravan/index.html",
+    "main.49f340b6.css.map": "/gold-caravan/static/css/main.49f340b6.css.map",
+    "main.aea76e74.js.map": "/gold-caravan/static/js/main.aea76e74.js.map"
   },
   "entrypoints": [
-    "static/css/main.2c4730c5.css",
-    "static/js/main.ff88992b.js"
+    "static/css/main.49f340b6.css",
+    "static/js/main.aea76e74.js"
   ]
 }
