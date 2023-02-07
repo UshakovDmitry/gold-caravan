@@ -29,6 +29,15 @@
   background: #c8a35f;
 }
 
+
+
+
+
+
+
+
+
+
 .menu {
   padding: 0;
   display: flex;
@@ -52,6 +61,17 @@
   color: white;
   /* transition: 0.3s ease-in; */
 }
+
+/* .link:hover {
+  color: #c8a35f;
+} */
+
+.active_link {
+  color: #c8a35f;
+  text-decoration: none;
+}
+
+
 .h1 {
   font-family: "Roboto-regular";
   color: #c8a35f;

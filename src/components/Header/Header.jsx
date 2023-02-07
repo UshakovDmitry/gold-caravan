@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import css from "./header.module.css";
 import {AiOutlineMenu,AiOutlineClose}  from 'react-icons/ai';
 
@@ -19,19 +19,20 @@ const Header = () => {
 
 
         <ul className={nav ? [css.menu, css.active].join(' ') : [css.menu]}>
-          <Link to="/" className={css.link}>
+          <NavLink to="/" className={ ({isActive}) => isActive ? `${css.active_link}` : `${css.link}`}>
             ГЛАВНАЯ
-          </Link>
-          <Link to="/reviews" className={css.link}>
+          </NavLink>
+          <NavLink to="/reviews"  className={ ({isActive}) => isActive ? `${css.active_link}` : `${css.link}`}>
             ОТЗЫВЫ
-          </Link>
-          <Link to="/drivers" className={css.link}>
+          </NavLink>
+          <NavLink to="/drivers" className={ ({isActive}) => isActive ? `${css.active_link}` : `${css.link}`}>
             ВОДИТЕЛИ
-          </Link>
-          <Link to="/about" className={css.link}>
+          </NavLink>
+          <NavLink to="/about" className={ ({isActive}) => isActive ? `${css.active_link}` : `${css.link}`}>
             О НАС
-          </Link>
+          </NavLink>
         </ul>
+        <div className={css.animation}></div>
 
 
 
