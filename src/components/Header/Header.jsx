@@ -3,10 +3,12 @@ import { NavLink } from "react-router-dom";
 import css from "./header.module.css";
 import {AiOutlineMenu,AiOutlineClose}  from 'react-icons/ai';
 
-
+const setActive = ({isActive}) => isActive ? `${css.active_link}` : `${css.link}`;
 const Header = () => {
 
-  const [nav, setNav] = React.useState(false)
+  const [nav, setNav] = React.useState(false);
+
+
 
 
   return (
@@ -19,17 +21,17 @@ const Header = () => {
 
 
         <ul className={nav ? [css.menu, css.active].join(' ') : [css.menu]}>
-          <NavLink to="/" className={ ({isActive}) => isActive ? `${css.active_link}` : `${css.link}`}>
+          <NavLink to="/" className={setActive}>
             ГЛАВНАЯ
           </NavLink>
-          <NavLink to="/reviews"  className={ ({isActive}) => isActive ? `${css.active_link}` : `${css.link}`}>
+          <NavLink to="/reviews" className={setActive}>
             ОТЗЫВЫ
           </NavLink>
-          <NavLink to="/drivers" className={ ({isActive}) => isActive ? `${css.active_link}` : `${css.link}`}>
+          <NavLink to="/drivers" className={setActive}>
             ВОДИТЕЛИ
           </NavLink>
-          <NavLink to="/about" className={ ({isActive}) => isActive ? `${css.active_link}` : `${css.link}`}>
-            О НАС
+          <NavLink to="/about" className={setActive}>
+            О КОМПАНИИ
           </NavLink>
         </ul>
         <div className={css.animation}></div>

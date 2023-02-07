@@ -1,3 +1,12 @@
+@font-face {
+  font-family: "Cera Pro Bold";
+  src: url("../../fonts/Roboto/Cera-pro/Cera\ Pro\ Bold.ttf");
+}
+@font-face {
+  font-family: "Cera Pro Regular";
+  src: url("../../fonts/Roboto/Cera-pro/Cera\ Pro\ Regular\ Italic.ttf");
+}
+
 .lending {
     display: flex;
     justify-content: center;
@@ -12,7 +21,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    font-family: 'Roboto-bold';
+    font-family: "Cera Pro Bold";
     font-size: 34px;
     color: white;
     max-width: 1100px;
@@ -31,7 +40,7 @@
   }
   
   .p {
-    font-family: 'Roboto-regular';
+    font-family: "Cera Pro Regular";
     font-size: 24px;
     color: white;
     text-align: center;

@@ -1,8 +1,7 @@
 @font-face {
-  font-family: "Roboto-regular";
-  src: url("../../fonts/Roboto/Roboto-Regular.ttf");
+  font-family: "Cera Pro Bold";
+  src: url("../../fonts/Roboto/Cera-pro/Cera\ Pro\ Bold.ttf");
 }
-
 .header {
   max-width: 1920px;
   height: 100px;
@@ -48,13 +47,13 @@
 
 .link {
   text-align: center;
-  font-family: "Roboto-regular";
+  font-family: "Cera Pro Bold";
   padding: 0;
   /* display: inline-block; */
   line-height: 16.41px;
   font-style: normal;
   font-weight: normal;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 18px;
   list-style: none;
   text-decoration-line: none;
@@ -67,13 +66,24 @@
 } */
 
 .active_link {
+  text-align: center;
+  font-family: "Cera Pro Bold";
+  padding: 0;
+  /* display: inline-block; */
+  line-height: 16.41px;
+  font-style: normal;
+  font-weight: 10px;
+  font-size: 18px;
+  line-height: 18px;
+  list-style: none;
+  text-decoration-line: none;
   color: #c8a35f;
-  text-decoration: none;
+ 
 }
 
 
 .h1 {
-  font-family: "Roboto-regular";
+  font-family: "Cera Pro Bold";
   color: #c8a35f;
   cursor: pointer;
   font-size: 42px;
