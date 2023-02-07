@@ -2,6 +2,10 @@
   font-family: "Roboto-regular";
   src: url("../../fonts/Roboto/Roboto-Regular.ttf");
 }
+@font-face {
+  font-family: "Cera Pro Regular";
+  src: url("../../fonts/Roboto/Cera-pro/Cera\ Pro\ Regular\ Italic.ttf");
+}
 
 .main {
   display: flex;
@@ -28,7 +32,7 @@
 }
 
 .text {
-  font-family: "Roboto-regular";
+  font-family: "Cera Pro Regular";
   font-size: 18px;
   font-weight: 400;
   padding: 10px;

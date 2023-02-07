@@ -1,5 +1,5 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+import { NavLink,Link } from "react-router-dom";
 import css from "./header.module.css";
 import {AiOutlineMenu,AiOutlineClose}  from 'react-icons/ai';
 
@@ -14,7 +14,7 @@ const Header = () => {
   return (
     <div className={css.header}>
       <div className={css.header__wrapper}>
-        <h1 className={css.h1}>Gold Caravan </h1>
+        <Link to="/" className={css.h1}>Gold Caravan </Link>
 
 
 

@@ -1,5 +1,5 @@
 import css from "./Advantages.module.css";
-import dollar from '../../images/dollar.svg'
+import dollar from '../../images/dollar_2.svg'
 import truck from '../../images/truck-delivery.svg'
 import boxes from '../../images/boxes.svg'
 
