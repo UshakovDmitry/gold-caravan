@@ -1,7 +1,7 @@
 import Footer from "../../components/Footer/Footer";
 import Header from "../../components/Header/Header";
 import css from "./About.module.css";
-import avatar from "../../images/avatar.jpeg";
+import avatar from "../../images/vika.jpeg";
 
 const About = () => {
   return (

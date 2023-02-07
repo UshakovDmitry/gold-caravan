@@ -22,14 +22,14 @@
 }
 
 .ava {
-  border-radius: 50%;
+  border-radius: 90px;
   margin: 0;
   box-sizing: border-box;
   padding: 20px;
   grid-area: ava;
   /* border: 1px solid yellow; */
-  max-width: 450px;
-  max-height: 450px;
+width: 450px;
+height: 550px;
 
 
 }

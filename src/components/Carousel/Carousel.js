@@ -2,12 +2,12 @@ import React, { Children, cloneElement } from "react";
 import css from "./Carousel.module.css";
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 
-const Carousel = ({ chidren }) => {
+const Carousel = ({ children }) => {
   const PAGE_WIDTH = 950;
 
   const [pages, setPages] = React.useState([]);
   const [offset, setOffset] = React.useState(0);
-
+  console.log(pages)
   const handlerArrowLeft = () => {
     setOffset(currentOffset => {
         const newOffset = currentOffset + PAGE_WIDTH;
@@ -20,7 +20,7 @@ const Carousel = ({ chidren }) => {
     setOffset(currentOffset => {
 
        const newOffset = currentOffset - PAGE_WIDTH;
-       const maxOffset = -(PAGE_WIDTH * (pages.length - 1));
+       const maxOffset = -(PAGE_WIDTH * (pages.length -1));
        console.log(pages)
     // console.log((pages.length - 1))
         return Math.max(newOffset , maxOffset)
@@ -31,7 +31,7 @@ const Carousel = ({ chidren }) => {
 
   React.useEffect(() => {
     setPages(
-      Children.map(chidren, (child) => {
+      Children.map(children, (child) => {
         return cloneElement(child, {
           style: {
             height: "100%",
@@ -41,7 +41,7 @@ const Carousel = ({ chidren }) => {
         });
       })
     );
-  }, []);
+  }, [children]);
 
   return (
     <div className={css.container}>

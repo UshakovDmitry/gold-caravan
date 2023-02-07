@@ -3,28 +3,46 @@
 .container {
     display: flex;
     align-items: center;
-    border: 5px solid orchid;
-    width: 950px;
-    height: 550px ;
+    justify-content: space-between;
+    /* border: 1px solid orchid; */
+    width: 1170px;
+    height: 600px ;
     /* display: flex;
     align-items: center; */
 
 }
 
 .window {
-
-    width: 100%;
+/* z-index: 10; */
+    width: 950px;
     height: 100%;
     overflow: hidden;
+    border-radius: 20px;
 
 
 }
 
 .all_pages {
+    /* z-index: 10; */
     display: flex;
     height: 100%;
+    transition: translate;
+    transition-property: transform;
+    transition-duration: 1s ;
+    transition-timing-function: ease-in-out;
+
+
 }
 
 .arrow {
+    height: 100px;
     cursor: pointer;
+    color: #C8A35F;
+}
+
+
+.arrow:hover {
+    height: 100px;
+    cursor: pointer;
+    color: white;
 }

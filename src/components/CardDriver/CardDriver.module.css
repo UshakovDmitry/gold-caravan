@@ -1,35 +1,45 @@
 .grid_layout {
-    display: grid;
-    grid:
-      "ava name" 1fr
-      "ava quote" 4fr
-      / 1.2fr 2fr;
-    gap: 8px;
-  
+ 
+  display: grid;
+  grid:
+    "ava name" 1fr
+    "ava quote" 4fr
+    / 1.2fr 2fr;
+  gap: 8px;
+
   width: 950px;
-  min-width: 950px ;
+  min-width: 950px;
   height: 550px;
   /* border: 9px solid rgb(166, 214, 53); */
-  background-color: gray;
+  background-color: rgb(209, 180, 180);
+  /* padding: 20px; */
 }
 
 .ava {
-    grid-area: ava;
-    /* border: 2px solid red; */
-    width: 100%;
-    height: 100%;
-    border-radius: 20px;
-   height: 90%;
-
+  grid-area: ava;
+  border: 2px solid black;
+  width: 300px;
+  height: 400px;
+box-sizing: border-box;
+  border-radius: 20px;
+object-fit: cover;
+  margin:30px;
 }
 
 .name {
-    grid-area: name;
-    /* border: 2px solid red; */
+  font-size: 32px;
+margin-top: 30px;
+margin-bottom: 0;
+  grid-area: name;
+  /* border: 2px solid red; */
 }
 
 .quote {
-    grid-area: quote;
-    font-size: 24px;
-    /* border: 2px solid red; */
+padding-top: 0;
+  grid-area: quote;
+  font-size: 24px;
+  border-radius: 20px;
+ color: black;
+ /* padding: 20px; */
+  /* border: 2px solid red; */
 }
