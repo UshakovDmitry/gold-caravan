@@ -1,5 +1,9 @@
+@font-face {
+  font-family: "Cera Pro Bold";
+  src: url("../../fonts/Roboto/Cera-pro/Cera\ Pro\ Bold.ttf");
+}
+
 .grid_layout {
- 
   display: grid;
   grid:
     "ava name" 1fr
@@ -11,7 +15,7 @@
   min-width: 950px;
   height: 550px;
   /* border: 9px solid rgb(166, 214, 53); */
-  background-color: rgb(209, 180, 180);
+  background-color: #393f47;
   /* padding: 20px; */
 }
 
@@ -20,26 +24,27 @@
   border: 2px solid black;
   width: 300px;
   height: 400px;
-box-sizing: border-box;
+  box-sizing: border-box;
   border-radius: 20px;
-object-fit: cover;
-  margin:30px;
+  object-fit: cover;
+  margin: 30px;
 }
 
 .name {
+  font-family: "Cera Pro Bold";
   font-size: 32px;
-margin-top: 30px;
-margin-bottom: 0;
+  margin-top: 30px;
+  margin-bottom: 0;
   grid-area: name;
   /* border: 2px solid red; */
 }
 
 .quote {
-padding-top: 0;
+  padding-top: 0;
   grid-area: quote;
   font-size: 24px;
   border-radius: 20px;
- color: black;
- /* padding: 20px; */
+  color: white;
+  /* padding: 20px; */
   /* border: 2px solid red; */
 }

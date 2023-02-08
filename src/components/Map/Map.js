@@ -1,11 +1,9 @@
-import map from "../../images/office.png";
+import map from "../../images/map_office.png";
 import css from "./Map.module.css";
 
 const Map = () => {
   return (
-    <div className={css.wrapper} >
-
-
+    <div className={css.wrapper}>
       <div
         className={css.img}
         style={{
@@ -14,9 +12,6 @@ const Map = () => {
           backgroundSize: "cover",
         }}
       ></div>
-
-
-
     </div>
   );
 };

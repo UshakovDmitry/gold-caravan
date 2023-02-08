@@ -23,24 +23,36 @@
 }
 
 .header__button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   cursor: pointer;
+  gap: 5px;
   box-sizing: border-box;
   border: none;
   color: black;
-  min-width: 245px;
-  height: 55px;
-  border-radius: 10px;
-  background: #c8a35f;
+  width: 180px;
+  height: 50px;
+  border-radius: 30px;
+  background: rgb(12, 153, 33);
+}
+.header__button:hover {
+  background: rgb(75, 224, 97);
+  transition: 1s;
 }
 
+.icon {
+  width: 35px;
+  height: 35px;
+}
 
-
-
-
-
-
-
-
+.p {
+  font-family: "Cera Pro Bold";
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  
+}
 
 .menu {
   padding: 0;
@@ -83,9 +95,7 @@
   list-style: none;
   text-decoration-line: none;
   color: #c8a35f;
- 
 }
-
 
 .h1 {
   font-family: "Cera Pro Bold";
@@ -102,14 +112,12 @@
 }
 
 @media (max-width: 800px) {
-
   .mobile_btn {
     display: block;
     margin-right: 20px;
     cursor: pointer;
     z-index: 10;
   }
-
 
   .menu {
     display: flex;
@@ -121,15 +129,15 @@
     top: 0;
     bottom: 0;
     margin: 0;
-    width: 100%; 
+    width: 100%;
     height: 100vh;
-    background-color: #2F343A;
+    background-color: #2f343a;
     z-index: 10;
-    transition: left 1.5s; 
+    transition: left 1.5s;
   }
 
   .active {
-    left:0;
+    left: 0;
   }
 
   .link {
@@ -137,10 +145,7 @@
   }
 }
 
-
-
 @media (max-width: 400px) {
-
   .h1 {
     font-family: "Cera Pro Bold";
     color: #c8a35f;
@@ -177,6 +182,5 @@
     list-style: none;
     text-decoration-line: none;
     color: #c8a35f;
-   
   }
 }

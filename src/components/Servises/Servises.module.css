@@ -1,105 +1,137 @@
 @font-face {
-    font-family: "Cera Pro Bold";
-    src: url("../../fonts/Roboto/Cera-pro/Cera\ Pro\ Bold.ttf");
-  }
-
-  .wrapper {
-    margin: 70px auto;
-    max-width: 1170px;
-    max-height: 770px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    gap: 60px;
-    
-  }
-
-  .border {
-    width: 90px;
-    height: 6px;
-    margin-left: 0px;
-    background-color: #C8A35F;;
-  }
-
-.h2 {
-    font-family: "Cera Pro Bold";
-    font-size: 40px;
-    font-weight: 700;
-    margin: 0;
-    padding: 0;
-    color: white;
-
-
+  font-family: "Cera Pro Bold";
+  src: url("../../fonts/Roboto/Cera-pro/Cera\ Pro\ Bold.ttf");
 }
 
+.wrapper {
+  margin: 0 auto;
+  max-width: 1170px;
+  max-height: 770px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 60px;
+}
 
+.border {
+  margin-top: 50px;
+  width: 90px;
+  height: 6px;
+  margin-left: 0px;
+  background-color: #c8a35f;
+}
+
+.h2 {
+  font-family: "Cera Pro Bold";
+  font-size: 40px;
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+  color: white;
+}
 
 .grid {
-    margin: 0 auto;
-    width: 1170px;
-    height: 370px;
-    /* border: 1px solid rosybrown; */
-    display: grid;
-    grid-template-columns: repeat(4, 290px);
-    grid-template-rows: 180px 180px ;
-    gap: 3px;
+  margin: 0 auto;
+  width: 1170px;
+  height: 370px;
+  /* border: 1px solid rosybrown; */
+  display: grid;
+  grid-template-columns: repeat(4, 290px);
+  grid-template-rows: 180px 180px;
+  gap: 3px;
 }
 
 .item {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items:center;
-    background-color: #393f47;
-    /* border: 1px solid forestgreen; */
-    gap: 20px;
-
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: #393f47;
+  /* border: 1px solid forestgreen; */
+  gap: 20px;
 }
 
 .item:hover {
-    background-color: #C8A35F;
-    transition: 1s;
-
-    
+  background-color: #c8a35f;
+  transition: 2s;
+  border-radius:5px ;
+  /* transform: scale(1.03); */
 }
 
-
-.item:hover .around{
-    background-color: white;
-    transition: 1s;
-    border: 2px solid black;
-
-    
+.item:hover .around {
+  background-color: white;
+  transition: 2s;
+  /* border: 2px solid black; */
+  transform: scale(1.2);
+  overflow: hidden;
 }
-
-
-
-
 
 .around {
-    display: flex;
-    justify-content: center;
-    align-items: center;
- /* overflow: hidden; */
-    width: 75px;
-    height: 75px;
-    border-radius: 50% ;
-    background-color: #C8A35F;
-    border: 2px solid white;
-    margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* overflow: hidden; */
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  background-color: #c8a35f;
+  border: 2px solid white;
+  margin: 0;
 }
 
-
-
 .h4 {
-    font-family: "Cera Pro Bold";
-    color:white;
-    margin: 0 0 20px;
-    font-size: 18px;
+  font-family: "Cera Pro Bold";
+  color: white;
+  margin: 0 0 20px;
+  font-size: 18px;
 }
 
 .icon {
-    width: 35px;
-    height: 35px;
-    
+  width: 35px;
+  height: 35px;
+}
+
+
+
+@media (max-width:400px) {
+    .wrapper {
+        box-sizing: border-box;
+        /* padding: 50px 20px; */
+        margin: 0 auto;
+        width: 390px;
+        max-height: 970px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        gap: 60px;
+      }
+    .grid {
+        box-sizing: border-box;
+        margin: 0 auto;
+        width: 390px;
+        height: 700px;
+        /* border: 1px solid rosybrown; */
+        display: grid;
+        grid-template-rows: repeat(4, 170px);
+        grid-template-columns: 170px 170px;
+        gap: 5px;
+      }
+
+      .item {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
+        background-color: #393f47;
+        /* border: 1px solid forestgreen; */
+        gap: 20px;
+      }
+
+      .h4 {
+        font-family: "Cera Pro Bold";
+        color: white;
+        margin: 0 0 20px;
+        font-size: 12px;
+        text-align: center;
+      }
 }

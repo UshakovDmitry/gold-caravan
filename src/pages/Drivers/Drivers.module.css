@@ -1,3 +1,7 @@
+@font-face {
+    font-family: "Cera Pro Bold";
+    src: url("../../fonts/Roboto/Cera-pro/Cera\ Pro\ Bold.ttf");
+  }
 .main {
     border-top: 3px solid #C8A35F;
     display: flex;
@@ -14,5 +18,15 @@
     /* opacity: 0.3; */
 }
 
+.h1 {
+    font-family: "Cera Pro Bold";
+    font-size: 40px;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+    color: white;
+
+
+}
 
 
