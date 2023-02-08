@@ -1,12 +1,13 @@
 {
   "files": {
-    "main.css": "/gold-caravan/static/css/main.75c3af32.css",
-    "main.js": "/gold-caravan/static/js/main.dffbc6e1.js",
+    "main.css": "/gold-caravan/static/css/main.c72f730b.css",
+    "main.js": "/gold-caravan/static/js/main.de85c3e3.js",
     "static/media/bg_drivers.png": "/gold-caravan/static/media/bg_drivers.659b9aa6e946cd37c14c.png",
     "static/media/truck.svg": "/gold-caravan/static/media/truck.186a39249efd3366a710f888469a1f48.svg",
-    "static/media/office.png": "/gold-caravan/static/media/office.e7dfe138e2e2dc924858.png",
     "static/media/main_img2.jpg": "/gold-caravan/static/media/main_img2.04e3a38515d0a762e60c.jpg",
     "static/media/main_img_1.jpg": "/gold-caravan/static/media/main_img_1.0241c3474eed827e3057.jpg",
+    "static/media/map_office.png": "/gold-caravan/static/media/map_office.8281b2b407f487776f0d.png",
+    "static/media/founders.jpeg": "/gold-caravan/static/media/founders.a8917f0014e3322eeff7.jpeg",
     "static/media/kazah_driver.jpeg": "/gold-caravan/static/media/kazah_driver.80df7fcdeaee95cabf78.jpeg",
     "static/media/vika.jpeg": "/gold-caravan/static/media/vika.40b90e99afd8c01813a3.jpeg",
     "static/media/kazah_driver_3.jpeg": "/gold-caravan/static/media/kazah_driver_3.7c9c9c5a4ce1938ec5ed.jpeg",
@@ -18,13 +19,17 @@
     "static/media/boxes.svg": "/gold-caravan/static/media/boxes.629ba1742c27ede3f5dfa68f061b4252.svg",
     "static/media/truck-delivery.svg": "/gold-caravan/static/media/truck-delivery.2a80a3765c0ad66eebf61db7ce5f6547.svg",
     "static/media/logo.svg": "/gold-caravan/static/media/logo.a50225b8133f515b729a2f6cc927f279.svg",
+    "static/media/whatsapp.svg": "/gold-caravan/static/media/whatsapp.f2883296e5f8c40374f487bfc522416c.svg",
+    "static/media/instagram.svg": "/gold-caravan/static/media/instagram.b2043c0295ef318920bcd05b43bf4921.svg",
     "static/media/dollar_2.svg": "/gold-caravan/static/media/dollar_2.ec8c0ae035115b1976faca2c89b403b1.svg",
+    "static/media/telegram.svg": "/gold-caravan/static/media/telegram.3295c7bd9bf1124c19a978b2c44e09c8.svg",
+    "static/media/phone_call.svg": "/gold-caravan/static/media/phone_call.ca8a50d54474f59784dbc5b4394a3c6c.svg",
     "index.html": "/gold-caravan/index.html",
-    "main.75c3af32.css.map": "/gold-caravan/static/css/main.75c3af32.css.map",
-    "main.dffbc6e1.js.map": "/gold-caravan/static/js/main.dffbc6e1.js.map"
+    "main.c72f730b.css.map": "/gold-caravan/static/css/main.c72f730b.css.map",
+    "main.de85c3e3.js.map": "/gold-caravan/static/js/main.de85c3e3.js.map"
   },
   "entrypoints": [
-    "static/css/main.75c3af32.css",
-    "static/js/main.dffbc6e1.js"
+    "static/css/main.c72f730b.css",
+    "static/js/main.de85c3e3.js"
   ]
 }
