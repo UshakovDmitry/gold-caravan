@@ -6,6 +6,7 @@ import Main from "../../components/Main/Main";
 import Map from "../../components/Map/Map";
 import Footer from "../../components/Footer/Footer";
 import Servises from "../../components/Servises/Servises";
+import Company from "../../components/Company/Company";
 // import css from './Drivers.module.css'
 
 const Drivers = () => {
@@ -16,6 +17,7 @@ const Drivers = () => {
       <Lending />
       <Advantages />
       <Servises />
+      <Company />
       <Main />
       <Map />
       <Footer />
