@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/gold-caravan/static/css/main.c72f730b.css",
-    "main.js": "/gold-caravan/static/js/main.de85c3e3.js",
+    "main.css": "/gold-caravan/static/css/main.6a72a7b1.css",
+    "main.js": "/gold-caravan/static/js/main.30aa330e.js",
     "static/media/bg_drivers.png": "/gold-caravan/static/media/bg_drivers.659b9aa6e946cd37c14c.png",
     "static/media/truck.svg": "/gold-caravan/static/media/truck.186a39249efd3366a710f888469a1f48.svg",
     "static/media/main_img2.jpg": "/gold-caravan/static/media/main_img2.04e3a38515d0a762e60c.jpg",
@@ -25,11 +25,11 @@
     "static/media/telegram.svg": "/gold-caravan/static/media/telegram.3295c7bd9bf1124c19a978b2c44e09c8.svg",
     "static/media/phone_call.svg": "/gold-caravan/static/media/phone_call.ca8a50d54474f59784dbc5b4394a3c6c.svg",
     "index.html": "/gold-caravan/index.html",
-    "main.c72f730b.css.map": "/gold-caravan/static/css/main.c72f730b.css.map",
-    "main.de85c3e3.js.map": "/gold-caravan/static/js/main.de85c3e3.js.map"
+    "main.6a72a7b1.css.map": "/gold-caravan/static/css/main.6a72a7b1.css.map",
+    "main.30aa330e.js.map": "/gold-caravan/static/js/main.30aa330e.js.map"
   },
   "entrypoints": [
-    "static/css/main.c72f730b.css",
-    "static/js/main.de85c3e3.js"
+    "static/css/main.6a72a7b1.css",
+    "static/js/main.30aa330e.js"
   ]
 }
